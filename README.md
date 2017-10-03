@@ -16,6 +16,10 @@ This module can be fully configured via the SysConfig module in OTRS. Please vis
 * `Match`: This contains an array of substrings. These substrings will be matched case-insensitive against all incoming email subjects.
 * `Debug`: 1 = Enable additional debug messages (you need to create this parameter first)
 
+## Contributing
+
+If you encounter trouble, please raise an issue. If you think there is a feature missing, please raise an issue or create a pull request. Contributions are welcome.
+
 
 ## LICENSE
 
