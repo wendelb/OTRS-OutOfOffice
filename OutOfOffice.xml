@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_config version="1.0" init="Application">
+	<ConfigItem Name="PostMaster::PreFilterModule###Out-of-Office" Required="0" Valid="1">
+		<Description Translatable="1">Filter Out of Office Notifications</Description>
+		<Group>Ticket</Group>
+		<SubGroup>Core::PostMaster</SubGroup>
+		<Setting>
+			<Hash>
+				<Item Key="Module">Kernel::System::PostMaster::Filter::OutOfOffice</Item>
+				<Item Key="Match">
+					<Array>
+						<Item>Not available</Item>
+						<Item>Out-of-Office</Item>
+					</Array>
+				</Item>
+			</Hash>
+		</Setting>
+	</ConfigItem>
+</otrs_config>
